@@ -11,7 +11,7 @@ export default function Logo({ src, ...rest }) {
                 cursor: 'pointer',
                 mr: 15,
             }}  
-            {...rest}
+            {... rest}>
         >
           <Image src={src} alt="ConquError" />
     </Link>

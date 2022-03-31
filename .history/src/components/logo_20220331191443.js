@@ -4,16 +4,15 @@ import { Link } from 'components/link';
 
 export default function Logo({ src, ...rest }) {
   return (
-    <Link 
-          path="/"
+    <Link path="/"
           sx={{ variant: 'links.logo',
                 display: 'flex',    
                 cursor: 'pointer',
                 mr: 15,
             }}  
-            {...rest}
+            {... rest}>
         >
-          <Image src={src} alt="ConquError" />
+
     </Link>
   );
 }
