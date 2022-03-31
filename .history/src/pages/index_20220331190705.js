@@ -18,7 +18,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="ConquError | Website" />
+          <SEO title="ConquError" />
           <Banner />
           <KeyFeature />
           <ServiceSection />

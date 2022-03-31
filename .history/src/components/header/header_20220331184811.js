@@ -9,25 +9,7 @@ import menuItems from './header.data';
 
 export default function Header({ className }) {
   return (
-      <header sx={styles.header} className={className} id="header">
-        <Container sx={styles.container}>
-          <Logo src={LogoDark} />
-          <Flex as="nav" sx={styles.nav}>
-            {menuItems.map((menuItem, i) =>(
-              <Link activeClass="active" 
-                    to={menuItem.path}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    key={i}
-                    >
-                    {menuItem.label}
-              </Link>
-            ))}
-          </Flex>
-          </Container>
-      </header>
+      <header sx={style.he}></header>
   );
 }
 
