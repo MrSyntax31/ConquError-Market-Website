@@ -18,7 +18,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="ConquError Landing Page" />
+          <SEO title="NextJS Landing Page" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
