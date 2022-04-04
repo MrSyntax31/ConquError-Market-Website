@@ -17,12 +17,7 @@ export default function Drawer ({
   ...props
 }) {
   return (
-    <Fragment>
-      <RcDrawer 
-      open ={open}>
-
-      </RcDrawer>
-    </Fragment>
+    <h1>Drawer</h1>
   );
 };
 

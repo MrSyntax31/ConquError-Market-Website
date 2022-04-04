@@ -18,9 +18,8 @@ export default function Drawer ({
 }) {
   return (
     <Fragment>
-      <RcDrawer 
-      open ={open}>
-
+      <RcDrawer>
+        
       </RcDrawer>
     </Fragment>
   );
