@@ -3,9 +3,8 @@ import 'react-modal-video/css/modal-video.min.css';
 import 'rc-drawer/assets/index.css';
 import 'typeface-dm-sans';
 
-import './global.css'
-//import 'bootstrap/dist/css/bootstrap.min.css';
-
+import '../styles/globals.css'
+import 'tailwindcss/tailwind.css'
 
 export default function CustomApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

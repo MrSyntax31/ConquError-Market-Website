@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Logo({ src, ...rest }) {
   return (
     <>

@@ -4,7 +4,6 @@ import { Link } from 'components/link';
 
 export default function Logo({ src, ...rest }) {
   return (
-    <>
     <Link 
           path="/"
           sx={{ variant: 'links.logo',
@@ -16,7 +15,6 @@ export default function Logo({ src, ...rest }) {
         >
           <Image src={src} alt="ConquError" /> 
     </Link>
-          <p style={{ textDecoration: 'none'}} className="fw-5" >Technojet.Dev</p>
-    </>
+    <p></p>
   );
 }

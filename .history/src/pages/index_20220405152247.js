@@ -14,6 +14,7 @@ import Package from '../sections/package';
 import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
 
+import "tailwindcss/tailwindcss.css"
 
 export default function IndexPage() {
   return (

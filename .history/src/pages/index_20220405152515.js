@@ -14,7 +14,6 @@ import Package from '../sections/package';
 import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
 
-
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>

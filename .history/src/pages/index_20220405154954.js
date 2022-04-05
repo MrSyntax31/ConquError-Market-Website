@@ -13,7 +13,7 @@ import WorkFlow from '../sections/workflow';
 import Package from '../sections/package';
 import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function IndexPage() {
   return (

@@ -16,7 +16,7 @@ export default function Logo({ src, ...rest }) {
         >
           <Image src={src} alt="ConquError" /> 
     </Link>
-          <p style={{ textDecoration: 'none'}} className="fw-5" >Technojet.Dev</p>
+          <p style={{ textDecoration: 'none' }} class="text-gray-400 font-semibold">Technojet.Dev</p>
     </>
   );
 }
