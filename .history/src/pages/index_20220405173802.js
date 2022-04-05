@@ -19,7 +19,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="Technojet.Dev Team" />
+          <SEO title="Technojet | Website" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
