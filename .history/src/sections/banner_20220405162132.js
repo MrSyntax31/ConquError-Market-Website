@@ -9,7 +9,7 @@ export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
-        <Box sx={styles.banner.contentBox}>
+        <Box sx={styles.contentBox}>
           <Heading as="h1" variant="heroPrimary">
             Top Quality Digital Product to Explore
           </Heading>

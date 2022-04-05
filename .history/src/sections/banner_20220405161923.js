@@ -9,7 +9,7 @@ export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
-        <Box sx={styles.banner.contentBox}>
+        <Box sx={1} style={styles.contentBox}>
           <Heading as="h1" variant="heroPrimary">
             Top Quality Digital Product to Explore
           </Heading>
@@ -17,11 +17,10 @@ export default function Banner() {
             We are a team of designers and developers that create high-quality digital products.
           </Text>
           <Button variant="primary">Explore</Button>
-        </Box>
+          <Box sx={styles.}>
 
-          <Box sx={styles.banner.imageBox}>
-            <Image src={BannerImg} alt="Banner" />
           </Box>
+        </Box>
       </Container>
     </section>
   );
