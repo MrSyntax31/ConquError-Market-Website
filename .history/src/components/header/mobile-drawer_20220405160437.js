@@ -60,12 +60,6 @@ export default function MobileDrawer() {
         </Box>
         <Box sx={styles.menuFooter}>
             <Box sx={styles.social}>
-              {social.map((socialItem, i) =>(
-                <Box as="span" key={i} sx={styles.social.icon}>
-                  <Link to={socialItem.path}>{socialItem.icon}</Link>
-                </Box>
-              ))}
-            </Box>
         </Box>
       </Box>
      </Scrollbars>

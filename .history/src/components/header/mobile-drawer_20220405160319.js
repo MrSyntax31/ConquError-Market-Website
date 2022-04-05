@@ -45,27 +45,18 @@ export default function MobileDrawer() {
      <Scrollbars autoHide>
       <Box sx={styles.content}>
         <Box sx={styles.menu}>
-          {menuItems.map((menuItem, i) =>(
-                <Link activeClass="active" 
-                      to={menuItem.path}
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                      key={i}
-                      >
-                      {menuItem.label}
-                </Link>
-              ))}
-        </Box>
-        <Box sx={styles.menuFooter}>
-            <Box sx={styles.social}>
-              {social.map((socialItem, i) =>(
-                <Box as="span" key={i} sx={styles.social.icon}>
-                  <Link to={socialItem.path}>{socialItem.icon}</Link>
-                </Box>
-              ))}
-            </Box>
+        {menuItems.map((menuItem, i) =>(
+              <Link activeClass="active" 
+                    to={menuItem.path}
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    key={i}
+                    >
+                    {menuItem.label}
+              </Link>
+            ))}
         </Box>
       </Box>
      </Scrollbars>
