@@ -27,17 +27,10 @@ const social = [
 ];
 
 export default function MobileDrawer() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   return (
    <Drawer
     width="320px"
-    drawerHandler={
-      <Box sx={styles.handler}>
-        <IoMdMenu size="26px" />
-      </Box>
-    }
-    open={isDrawerOpen}
-    toggleHandler={() => setIsDrawerOpen((prevState) => !prevState)}
+    drawerHandler={}
    >
      
    </Drawer>

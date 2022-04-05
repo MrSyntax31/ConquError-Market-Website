@@ -27,7 +27,6 @@ const social = [
 ];
 
 export default function MobileDrawer() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   return (
    <Drawer
     width="320px"
@@ -36,8 +35,7 @@ export default function MobileDrawer() {
         <IoMdMenu size="26px" />
       </Box>
     }
-    open={isDrawerOpen}
-    toggleHandler={() => setIsDrawerOpen((prevState) => !prevState)}
+    op
    >
      
    </Drawer>

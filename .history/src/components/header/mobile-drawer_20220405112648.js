@@ -27,7 +27,6 @@ const social = [
 ];
 
 export default function MobileDrawer() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   return (
    <Drawer
     width="320px"
@@ -37,7 +36,7 @@ export default function MobileDrawer() {
       </Box>
     }
     open={isDrawerOpen}
-    toggleHandler={() => setIsDrawerOpen((prevState) => !prevState)}
+    
    >
      
    </Drawer>

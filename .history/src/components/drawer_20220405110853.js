@@ -19,26 +19,16 @@ export default function Drawer ({
   return (
     <Fragment>
       <RcDrawer 
-        open={open}
+        open ={open}
         onClose={toggleHandler}
         className={`drawer ${className || '' }`.trim()}
         width={width}
         placement={placement}
         handler={false}
-        level={null}
-        duration={'0.4s'}
-        {...props}
+        lel
         >
-          {closeButton && (
-            <Box as="div" onClick={toggleHandler} sx={closeBtnStyle}>
-              {closeButton}
-              </Box> 
-          )}
-          <Box sx={drawerStyle}> {children} </Box>
+
       </RcDrawer>
-          <Box className="drawer__handler" style={{display: 'inline-block'}} onClick={toggleHandler}>
-            {drawerHandler}
-          </Box>
     </Fragment>
   );
 };

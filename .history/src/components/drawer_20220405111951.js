@@ -19,7 +19,7 @@ export default function Drawer ({
   return (
     <Fragment>
       <RcDrawer 
-        open={open}
+        open ={open}
         onClose={toggleHandler}
         className={`drawer ${className || '' }`.trim()}
         width={width}
@@ -30,15 +30,17 @@ export default function Drawer ({
         {...props}
         >
           {closeButton && (
-            <Box as="div" onClick={toggleHandler} sx={closeBtnStyle}>
+            <Box as="div" onclick={toggleHandler} sx={closeBtnStyle}>
               {closeButton}
               </Box> 
           )}
-          <Box sx={drawerStyle}> {children} </Box>
-      </RcDrawer>
-          <Box className="drawer__handler" style={{display: 'inline-block'}} onClick={toggleHandler}>
+          <Box sx={drawerStyle}>
+            {children}
+          </Box>
+          <Box className="drawer__handler" style={{display: 'inline-block'}} onClick="toggleHandler">
             {drawerHandler}
           </Box>
+      </RcDrawer>
     </Fragment>
   );
 };

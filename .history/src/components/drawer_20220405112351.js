@@ -36,7 +36,7 @@ export default function Drawer ({
           )}
           <Box sx={drawerStyle}> {children} </Box>
       </RcDrawer>
-          <Box className="drawer__handler" style={{display: 'inline-block'}} onClick={toggleHandler}>
+          <Box className="drawer__handler" style={{display: 'inline-block'}} onClick="toggleHandler">
             {drawerHandler}
           </Box>
     </Fragment>

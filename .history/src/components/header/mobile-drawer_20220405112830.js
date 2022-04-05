@@ -27,7 +27,7 @@ const social = [
 ];
 
 export default function MobileDrawer() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isDrawerOpen, set]
   return (
    <Drawer
     width="320px"
