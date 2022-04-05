@@ -42,9 +42,7 @@ export default function MobileDrawer() {
     drawerStyle={styles.drawer}
     closeBtnStyle={styles.close}
    >
-     <Scrollbars>
-       
-     </Scrollbars>
+     <Scrollbars></Scrollbars></Scrollbars>
    </Drawer>
   );
 };

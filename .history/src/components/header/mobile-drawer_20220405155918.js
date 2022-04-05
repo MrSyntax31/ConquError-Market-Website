@@ -40,11 +40,9 @@ export default function MobileDrawer() {
     toggleHandler={() => setIsDrawerOpen((prevState) => !prevState)}
     closeButton={<IoMdClose size="24" color="#000000"/>}
     drawerStyle={styles.drawer}
-    closeBtnStyle={styles.close}
+    closeBtnStyles
    >
-     <Scrollbars>
-       
-     </Scrollbars>
+     
    </Drawer>
   );
 };
