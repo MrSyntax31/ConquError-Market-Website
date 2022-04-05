@@ -11,9 +11,6 @@ export default function SectionHeader({ title, slogan, isWhite }) {
         }}>
           {slogan}
       </Text>
-      <Heading>
-        
-      </Heading>
     </Box>
   );
 }

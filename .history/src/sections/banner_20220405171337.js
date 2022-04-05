@@ -20,7 +20,7 @@ export default function Banner() {
         </Box>
 
           <Box sx={styles.banner.imageBox}>
-            <Image src={BannerImg} alt='Banner' />
+            <Image src={BannerImg} alt='Banner" />
           </Box>
       </Container>
     </section>

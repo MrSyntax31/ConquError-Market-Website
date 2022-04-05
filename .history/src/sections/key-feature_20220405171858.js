@@ -47,9 +47,7 @@ export default function KeyFeature() {
   return (
    <section sx={{ variant:  'section.KeyFeature'}} id="feature">
      <Container>
-        <SectionHeader
-          slogan="Whats the function"
-        />
+        <SectionHeader/>
      </Container>
    </section>
   );

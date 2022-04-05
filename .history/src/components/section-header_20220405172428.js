@@ -9,11 +9,8 @@ export default function SectionHeader({ title, slogan, isWhite }) {
         color: isWhite ? 'white' : 'primary',
         opacity: isWhite ? 0.7 : 1,
         }}>
-          {slogan}
+
       </Text>
-      <Heading>
-        
-      </Heading>
     </Box>
   );
 }

@@ -6,14 +6,10 @@ export default function SectionHeader({ title, slogan, isWhite }) {
     <Box sx={{variant: 'sectionHeader'}}>
       <Text as="p" sx={{
         variant: 'sectionHeader.subTitle',
-        color: isWhite ? 'white' : 'primary',
-        opacity: isWhite ? 0.7 : 1,
+        color: isWhite ? 'white' : 'primary'
         }}>
-          {slogan}
+
       </Text>
-      <Heading>
-        
-      </Heading>
     </Box>
   );
 }
