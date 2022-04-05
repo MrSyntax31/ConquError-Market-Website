@@ -12,7 +12,7 @@ export default function FeatureCardColumn({
       <Image src={src} alt={altText} sx={styles.img} />
       <Box sx={styles.wrapper}>
         <Heading sx={styles.wrapper.title}>{title}</Heading>
-        <Text sx={styles.wrapper.subtitle}>{text}</Text>
+        <Text sx={styles.wrapper.subtitle}>{}</Text>
       </Box>
     </Box>
   );
