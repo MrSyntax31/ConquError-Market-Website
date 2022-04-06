@@ -10,16 +10,9 @@ export default function TeamCard({ src, altText, title, designation, social }) {
         <Heading className="info__name" sx={styles.infoWrapper}>
           {title}
         </Heading>
-        <Text sx={styles.infoWrapper.designation} className="info__designation">
-          {designation}
+        <Text sx={styles.infoWrapper} className="info">
+
         </Text>
-      </Box>
-      <Box sx={styles.socialShare} className="social__share">
-        {social.map((item) =>(
-          <Link key={item.id} href={item.path} className={item.name}>
-          {item.icon}
-          </Link>
-        ))}
       </Box>
     </Box>
   );

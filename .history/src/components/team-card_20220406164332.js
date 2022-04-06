@@ -5,22 +5,7 @@ import { Text, Heading, Image, Box, Link } from 'theme-ui';
 export default function TeamCard({ src, altText, title, designation, social }) {
   return (
     <Box sx={styles.card}>
-      <Image src={src} altText={altText} sx={styles.memberThumb}/>
-      <Box sx={styles.infoWrapper}>
-        <Heading className="info__name" sx={styles.infoWrapper}>
-          {title}
-        </Heading>
-        <Text sx={styles.infoWrapper.designation} className="info__designation">
-          {designation}
-        </Text>
-      </Box>
-      <Box sx={styles.socialShare} className="social__share">
-        {social.map((item) =>(
-          <Link key={item.id} href={item.path} className={item.name}>
-          {item.icon}
-          </Link>
-        ))}
-      </Box>
+      <Image
     </Box>
   );
 }
