@@ -189,12 +189,7 @@ export default function TeamSection() {
         <Grid sx={styles.grid}>
             {data.map((item) => (
               <TeamCard
-                key={item.id}
-                src={item.imgSrc}
-                altText={item.altText}
-                title={item.title}
-                designation={item.designation}
-                social={item.socialProfile}
+                key=
               />
             ))}
         </Grid>

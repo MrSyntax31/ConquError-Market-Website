@@ -194,7 +194,6 @@ export default function TeamSection() {
                 altText={item.altText}
                 title={item.title}
                 designation={item.designation}
-                social={item.socialProfile}
               />
             ))}
         </Grid>

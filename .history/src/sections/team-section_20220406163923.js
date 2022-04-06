@@ -186,18 +186,7 @@ export default function TeamSection() {
           title="Meet our team"
         />
 
-        <Grid sx={styles.grid}>
-            {data.map((item) => (
-              <TeamCard
-                key={item.id}
-                src={item.imgSrc}
-                altText={item.altText}
-                title={item.title}
-                designation={item.designation}
-                social={item.socialProfile}
-              />
-            ))}
-        </Grid>
+        <Grid
       </Container>
     </section>
   );
