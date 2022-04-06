@@ -21,9 +21,7 @@ const Rating = ({rating}) => {
   }
   return (
     <div className="rating">
-      <ul>
-        {totalRating}
-      </ul>
+      
     </div>
   );
 };

@@ -11,20 +11,11 @@ const Rating = ({rating}) => {
           <FaStar/>
         </li>
       );
-    }else{
-      totalRating.push(
-        <li className="star-o" key={i}>
-          <FaStar/>
-        </li>
-      )
-    }
+    }else
   }
   return (
-    <div className="rating">
-      <ul>
-        {totalRating}
-      </ul>
-    </div>
+    <>
+    </>
   );
 };
 

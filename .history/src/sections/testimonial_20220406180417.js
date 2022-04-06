@@ -116,22 +116,9 @@ export default function TestimonialCard() {
                 <Heading as="h3" sx={styles.title}>
                   {item.title}
                 </Heading>
-                <Text sx={styles.description}>
-                  {item.description}
+                <Text sx={styles.}>
+
                 </Text>
-                <div className="card-footer">
-                  <div className="image">
-                    <Image src={item.avatar} alt="avatar" />
-                  </div>
-                  <div className="reviewer-info">
-                    <Heading as="h4" sx={styles.heading}>
-                      {item.name}
-                    </Heading>
-                    <Text sx={styles.designation}>
-                      {item.designation}
-                    </Text>
-                  </div>
-                </div>
             </Box>
           ))}
         </Carousel>

@@ -124,12 +124,9 @@ export default function TestimonialCard() {
                     <Image src={item.avatar} alt="avatar" />
                   </div>
                   <div className="reviewer-info">
-                    <Heading as="h4" sx={styles.heading}>
-                      {item.name}
+                    <Heading>
+                      
                     </Heading>
-                    <Text sx={styles.designation}>
-                      {item.designation}
-                    </Text>
                   </div>
                 </div>
             </Box>
