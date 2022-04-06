@@ -248,9 +248,15 @@ export default function Package() {
 
   const handlePricingPlan = (plan) =>{
     if(plan === 'annual'){
-      setState({ active: 'annual', pricingPlan: annual})
+      setState({
+        active: 'annual',
+        pricingPlan: annual,
+      })
     }else{
-      setState({ active: 'monthly', pricingPlan: monthly})
+      setState({
+        active: 'monthly',
+        pricingPlan: monthly,
+      })
     }
   }
 
@@ -287,7 +293,7 @@ export default function Package() {
 
           <Flex sx={styles.buttonGroup}>
             <Box sx={styles.buttonGroupInner}>
-              <button className={state.active === 'monthly' ? 'active' : ''}
+              <button className={setState.active === 'monthly' ? 'active' : ''}
                       type="button"
                       aria-label="Monthly"
                       onClick={() => handlePricingPlan('monthly')}
@@ -295,7 +301,7 @@ export default function Package() {
                 Monthly Plan
               </button>
 
-              <button className={state.active === 'annual' ? 'active' : ''}
+              <button className={setState.active === 'annual' ? 'active' : ''}
                       type="button"
                       aria-label="Annual"
                       onClick={() => handlePricingPlan('annual')}
@@ -304,15 +310,6 @@ export default function Package() {
               </button>
             </Box>
           </Flex>
-          <Box sx={styles.pricingWrapper} className="pricing__wrapper">
-            <Carousel {...sliderParams}>
-              {state.pricingPlan.map((packageData) =>(
-                <Box sx={styles.pricingItem} key={packageData.id}>
-                  <PriceCard data={packageData}/> 
-                </Box>
-              ))}
-            </Carousel>
-          </Box>
       </Container>
     </section>
   );

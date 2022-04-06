@@ -308,8 +308,7 @@ export default function Package() {
             <Carousel {...sliderParams}>
               {state.pricingPlan.map((packageData) =>(
                 <Box sx={styles.pricingItem} key={packageData.id}>
-                  <PriceCard data={packageData}/> 
-                </Box>
+                  <Price
               ))}
             </Carousel>
           </Box>

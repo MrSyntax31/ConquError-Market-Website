@@ -309,7 +309,7 @@ export default function Package() {
               {state.pricingPlan.map((packageData) =>(
                 <Box sx={styles.pricingItem} key={packageData.id}>
                   <PriceCard data={packageData}/> 
-                </Box>
+                  
               ))}
             </Carousel>
           </Box>
