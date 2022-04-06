@@ -109,8 +109,8 @@ export default function TestimonialCard() {
       />
      </Container>
      <Box sx={styles.carouselWrapper}>
-        <Carousel {...carouselParams}>
-          {data}
+        <Carousel {...}>
+
         </Carousel>
      </Box>
    </section>

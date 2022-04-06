@@ -108,10 +108,8 @@ export default function TestimonialCard() {
           title="Meet client satisfaction"
       />
      </Container>
-     <Box sx={styles.carouselWrapper}>
-        <Carousel {...carouselParams}>
-          {data}
-        </Carousel>
+     <Box sx={styles}>
+
      </Box>
    </section>
   );
