@@ -242,23 +242,8 @@ const responsive = {
 export default function Package() {
   const { monthly, annual } = packages;
   const [state, setState] = useState({
-    active: 'monthly',
-    pricingPlan: monthly,
+    active:
   })
-
-  const handlePricingPlan = (plan) =>{
-    if(plan === 'annual'){
-      setState({
-        active: 'annual',
-        pricingPlan: annual,
-      })
-    }else{
-      setState({
-        active: 'monthly',
-        pricingPlan: monthly,
-      })
-    }
-  }
 
   const sliderParams = {
     additionalTransfrom: 0,
@@ -293,12 +278,8 @@ export default function Package() {
 
           <Flex sx={styles.buttonGroup}>
             <Box sx={styles.buttonGroupInner}>
-              <button className={setState.active === 'monthly' ? 'active' : ''}
-                      type="button"
-                      aria-label="monthly"
-                      onClick={() => handlePricingPlan('monthly')}
-              >
-                Monthly Plan
+              <button className={'active'}>
+
               </button>
             </Box>
           </Flex>

@@ -296,9 +296,8 @@ export default function Package() {
               <button className={setState.active === 'monthly' ? 'active' : ''}
                       type="button"
                       aria-label="monthly"
-                      onClick={() => handlePricingPlan('monthly')}
               >
-                Monthly Plan
+
               </button>
             </Box>
           </Flex>

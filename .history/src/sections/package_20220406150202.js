@@ -298,7 +298,7 @@ export default function Package() {
                       aria-label="monthly"
                       onClick={() => handlePricingPlan('monthly')}
               >
-                Monthly Plan
+                Monthly 
               </button>
             </Box>
           </Flex>

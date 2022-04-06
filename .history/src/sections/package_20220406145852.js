@@ -252,11 +252,6 @@ export default function Package() {
         active: 'annual',
         pricingPlan: annual,
       })
-    }else{
-      setState({
-        active: 'monthly',
-        pricingPlan: monthly,
-      })
     }
   }
 
@@ -293,12 +288,8 @@ export default function Package() {
 
           <Flex sx={styles.buttonGroup}>
             <Box sx={styles.buttonGroupInner}>
-              <button className={setState.active === 'monthly' ? 'active' : ''}
-                      type="button"
-                      aria-label="monthly"
-                      onClick={() => handlePricingPlan('monthly')}
-              >
-                Monthly Plan
+              <button className={'active'}>
+
               </button>
             </Box>
           </Flex>
