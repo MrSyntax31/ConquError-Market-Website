@@ -35,7 +35,7 @@ export default function PriceCard({
             {buttonText}
           </Button>
           {anotherOption && (
-            <Button variant="textButton" className="free__trial" aria-label={anotherOption} sx={{color:'black'}}>
+            <Button variant="textButton" className="free__trail" aria-label={anotherOption} sx={{color:'black'}}>
               {anotherOption}
             </Button>
           )}

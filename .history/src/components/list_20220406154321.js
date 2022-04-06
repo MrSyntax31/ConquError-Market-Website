@@ -7,12 +7,7 @@ export default function List({ items = [], parentStyle, childStyle }) {
       as="ul" 
       sx={{
         listStyleType: 'none', 
-        margin: 0, 
-        padding: 0, 
-        ...parentStyle
-        }}
-        >
-          
+        margin: 0, padding: 0, ...parentStyle}}>
       {items.map((item, i) =>(
         <Flex
           className={item.isAvailable ? 'open' : 'closed' }

@@ -9,10 +9,7 @@ export default function List({ items = [], parentStyle, childStyle }) {
         listStyleType: 'none', 
         margin: 0, 
         padding: 0, 
-        ...parentStyle
-        }}
-        >
-          
+        ...parentStyle}}>
       {items.map((item, i) =>(
         <Flex
           className={item.isAvailable ? 'open' : 'closed' }

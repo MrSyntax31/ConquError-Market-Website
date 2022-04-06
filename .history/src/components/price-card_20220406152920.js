@@ -21,24 +21,7 @@ export default function PriceCard({
           <Heading className="package__name" variant="title">
             {name}
           </Heading>
-          <Text as="p">
-            {description}
-          </Text>
-        </Box>
-        <List items={points} childStyle={styles.listItem}/>
-        <Text className="package__price" sx={styles.price}>
-          {priceWithUnit}
-          <span>/Monthly</span>
-        </Text>
-        <Box sx={styles.buttonGroup}>
-          <Button variant="primary" aria-label={buttonText}>
-            {buttonText}
-          </Button>
-          {anotherOption && (
-            <Button variant="textButton" className="free__trial" aria-label={anotherOption} sx={{color:'black'}}>
-              {anotherOption}
-            </Button>
-          )}
+          <Text as="p"></Text>
         </Box>
       </Box>
     </Card>
