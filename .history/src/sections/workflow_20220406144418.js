@@ -44,19 +44,7 @@ export default function WorkFlow() {
           isWhite={true}
           />
           
-          <Grid sx={styles.grid}>
-            {data.map((item) =>(
-              <Box sx={styles.card} key={item.id}>
-                <Box sx={styles.iconBox}>
-                  {`${item.id}`}
-                </Box>
-                <Box sx={styles.wrapper}>
-                  <Heading sx={styles.wrapper.title}>{item.title}</Heading>
-                  <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
-                </Box>
-              </Box>
-            ))}
-          </Grid>
+          <Grid sx={styles.grid}
       </Container>
     </section>
   );

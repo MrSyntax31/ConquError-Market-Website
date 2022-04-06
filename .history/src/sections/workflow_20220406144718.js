@@ -51,8 +51,7 @@ export default function WorkFlow() {
                   {`${item.id}`}
                 </Box>
                 <Box sx={styles.wrapper}>
-                  <Heading sx={styles.wrapper.title}>{item.title}</Heading>
-                  <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
+                  <Head
                 </Box>
               </Box>
             ))}

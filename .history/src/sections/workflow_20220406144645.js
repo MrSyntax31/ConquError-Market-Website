@@ -50,10 +50,6 @@ export default function WorkFlow() {
                 <Box sx={styles.iconBox}>
                   {`${item.id}`}
                 </Box>
-                <Box sx={styles.wrapper}>
-                  <Heading sx={styles.wrapper.title}>{item.title}</Heading>
-                  <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
-                </Box>
               </Box>
             ))}
           </Grid>
