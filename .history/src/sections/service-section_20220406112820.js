@@ -36,7 +36,7 @@ const data = {
 };
 
 export default function ServiceSection() {
-  const [videoOpen, setVideoOpen] = useState(false);
+  const [videoOpen, setModalIsOpen] = useState(false);
   const handleClick = (e) => {
     e.preventDefault();
 

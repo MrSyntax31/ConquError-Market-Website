@@ -45,7 +45,7 @@ const data = [
 
 export default function Feature() {
   return (
-   <section> </section>
+   <h1>Feature</h1>
   );
 }
 

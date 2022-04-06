@@ -30,7 +30,7 @@ export default function TextFeature({
           <Button variant="primary" aria-label={btnName}>
             {btnName}
           </Button>
-        </Link>
+          
       )}
 
     </Box>
