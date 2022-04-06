@@ -58,7 +58,6 @@ export default function Feature() {
               src={item.imgSrc}
               alt={item.altText}
               title={item.title}
-              text={item.text}
             />
           ))}
        </Grid>

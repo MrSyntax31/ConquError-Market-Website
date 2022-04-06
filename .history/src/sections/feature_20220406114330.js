@@ -48,20 +48,8 @@ export default function Feature() {
    <section sx={{ variant: 'section.feature'}}> 
      <Container>
        <SectionHeader
-        slogan="Quality Features"
-        title="Meet the function Feature"
+        slogan="Quality "
        />
-       <Grid sx={styles.grid}>
-          {data.map((item) => (
-            <FeatureCard
-              key={item.id}
-              src={item.imgSrc}
-              alt={item.altText}
-              title={item.title}
-              text={item.text}
-            />
-          ))}
-       </Grid>
      </Container>
    </section>
   );
