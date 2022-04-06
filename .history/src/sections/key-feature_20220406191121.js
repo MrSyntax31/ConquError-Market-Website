@@ -47,7 +47,7 @@ const data = [
 export default function KeyFeature() {
   return (
    <section sx={{ variant:  'section.KeyFeature'}} id="services" >
-     <Container style={{marginTop: "5%"}}>
+     <Container style={{}}>
         <SectionHeader 
           
           slogan="Services"

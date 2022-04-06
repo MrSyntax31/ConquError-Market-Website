@@ -50,8 +50,8 @@ export default function KeyFeature() {
      <Container style={{marginTop: "5%"}}>
         <SectionHeader 
           
-          slogan="Services"
-          title="Our passion and goal is to help you, make your business standout."
+          slogan="Welcome"
+          title="Meet the function Feature"
         />
         <Grid sx={styles.grid}>
           {data.map((item) => (

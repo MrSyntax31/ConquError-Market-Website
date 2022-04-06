@@ -47,11 +47,11 @@ const data = [
 export default function KeyFeature() {
   return (
    <section sx={{ variant:  'section.KeyFeature'}} id="services" >
-     <Container style={{marginTop: "5%"}}>
+     <Container >
         <SectionHeader 
           
           slogan="Services"
-          title="Our passion and goal is to help you, make your business standout."
+          title="Meet the function Feature"
         />
         <Grid sx={styles.grid}>
           {data.map((item) => (
