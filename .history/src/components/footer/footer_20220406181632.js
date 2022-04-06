@@ -23,9 +23,7 @@ export default function Footer() {
               ))}
             </nav>
           </Box>
-          <Text xs={styles.footer.copyright}>
-            Copyright by {new Date().getFullYear()} | Technojet.Dev Team
-          </Text>
+          <Text xs={}></Text>
         </Box>
       </Container>
     </footer>

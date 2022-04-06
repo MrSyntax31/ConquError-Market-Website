@@ -14,18 +14,9 @@ export default function Footer() {
           </Link>
           <Box sx={styles.footer.menus}>
             <nav>
-              {data.menuItem.map((item, i) => (
-                <Link path={item.path}
-                    key={i}
-                    label={item.label}
-                    sx={styles.footer.link}
-                    />
-              ))}
+              {data.menuItems.map}
             </nav>
           </Box>
-          <Text xs={styles.footer.copyright}>
-            Copyright by {new Date().getFullYear()} | Technojet.Dev Team
-          </Text>
         </Box>
       </Container>
     </footer>

@@ -17,15 +17,12 @@ export default function Footer() {
               {data.menuItem.map((item, i) => (
                 <Link path={item.path}
                     key={i}
-                    label={item.label}
+                    label={items.label}
                     sx={styles.footer.link}
                     />
               ))}
             </nav>
           </Box>
-          <Text xs={styles.footer.copyright}>
-            Copyright by {new Date().getFullYear()} | Technojet.Dev Team
-          </Text>
         </Box>
       </Container>
     </footer>

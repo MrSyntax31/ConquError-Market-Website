@@ -9,23 +9,9 @@ export default function Footer() {
     <footer sx={styles.footer}>
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
-          <Link path="/">
-            <Image src={FooterLogo} alt="Footer Logo" />
+          <Link path="">
+            
           </Link>
-          <Box sx={styles.footer.menus}>
-            <nav>
-              {data.menuItem.map((item, i) => (
-                <Link path={item.path}
-                    key={i}
-                    label={item.label}
-                    sx={styles.footer.link}
-                    />
-              ))}
-            </nav>
-          </Box>
-          <Text xs={styles.footer.copyright}>
-            Copyright by {new Date().getFullYear()} | Technojet.Dev Team
-          </Text>
         </Box>
       </Container>
     </footer>
