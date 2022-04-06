@@ -10,11 +10,11 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Text as="p" variant="heroSecondary">
-            Hello, we are the Tehnojet Development Team
+        <Text as="p" variant="heroSecondary">
+            We are a team of designers and developers that create high-quality digital products.
           </Text>
           <Heading as="h1" variant="heroPrimary">
-            Digital Designer and Web Developer Based in Somewhere.
+            Top Quality Digital Product to Explore
           </Heading>
           <Text as="p" variant="heroSecondary">
             We are a team of designers and developers that create high-quality digital products.

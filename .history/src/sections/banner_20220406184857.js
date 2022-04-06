@@ -14,7 +14,7 @@ export default function Banner() {
             Hello, we are the Tehnojet Development Team
           </Text>
           <Heading as="h1" variant="heroPrimary">
-            Digital Designer and Web Developer Based in Somewhere.
+            Digital Designer and Web Developer Based In Somewhere.
           </Heading>
           <Text as="p" variant="heroSecondary">
             We are a team of designers and developers that create high-quality digital products.

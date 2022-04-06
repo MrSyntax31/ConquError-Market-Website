@@ -263,7 +263,7 @@ export default {
       color: 'white',
       bg: 'primary',
       '&:hover': {
-        boxShadow: 'rgb(49, 156, 243) 0px 9px 20px -5px',
+        boxShadow: '#00b4d8',
       },
     },
     whiteButton: {

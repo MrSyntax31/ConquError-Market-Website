@@ -9,7 +9,7 @@ export default {
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E5ECF4', // border color
     yellow: '#FFA740', // border color
-    primary: '#0466c8', // primary button and link color
+    primary: '#EA3A60', // primary button and link color
     secondary: '#2563FF', // secondary color - can be used for hover states
     muted: '#E4E4E4', // muted color
     accent: '#609', // a contrast color for emphasizing UI
@@ -263,7 +263,7 @@ export default {
       color: 'white',
       bg: 'primary',
       '&:hover': {
-        boxShadow: 'rgb(49, 156, 243) 0px 9px 20px -5px',
+        boxShadow: 'rgba(233, 76, 84, 0.57) 0px 9px 20px -5px',
       },
     },
     whiteButton: {
