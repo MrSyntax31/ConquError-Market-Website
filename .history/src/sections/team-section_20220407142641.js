@@ -143,7 +143,7 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/jayieestrada/',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],

@@ -131,7 +131,7 @@ const data = [
       {
         id: 1,
         name: 'facebook',
-        path: 'https://www.facebook.com/Jayie.estrada1001',
+        path: '#',
         icon: <FaFacebookF />,
       },
       {
@@ -143,7 +143,7 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/jayieestrada/',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],
@@ -151,8 +151,8 @@ const data = [
   {
     id: 6,
     imgSrc: Member6,
-    altText: 'Technojet.Dev',
-    title: 'Technojet.Dev',
+    altText: 'Technojet',
+    title: 'Aaron Nunez',
     designation: 'Web Designer',
     socialProfile: [
       {

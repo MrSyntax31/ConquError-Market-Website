@@ -97,41 +97,14 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: 'Christeel Ann Yambot',
-    title: 'Christeel Ann Yambot',
-    designation: 'Associate Researcher',
+    altText: 'Lina Jutila',
+    title: 'Lina Jutila',
+    designation: 'Web Developer',
     socialProfile: [
       {
         id: 1,
         name: 'facebook',
-        path: 'https://www.facebook.com/christeel.ann.10',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: 'https://www.linkedin.com/in/christeel-ann-yambot-1b9853159/',
-        icon: <FaLinkedinIn />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: 'https://www.instagram.com/telelenggdump_/',
-        icon: <FaInstagram />,
-      },
-    ],
-  },
-  {
-    id: 5,
-    imgSrc: Member5,
-    altText: 'Joshua Joseph Estrada',
-    title: 'Joshua Joseph Estrada',
-    designation: 'Junior Programmer',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: 'https://www.facebook.com/Jayie.estrada1001',
+        path: '#',
         icon: <FaFacebookF />,
       },
       {
@@ -143,7 +116,34 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/jayieestrada/',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 5,
+    imgSrc: Member5,
+    altText: 'Saimon Harmer',
+    title: 'Saimon Harmer',
+    designation: 'CEO and Founder',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],
@@ -151,8 +151,8 @@ const data = [
   {
     id: 6,
     imgSrc: Member6,
-    altText: 'Technojet.Dev',
-    title: 'Technojet.Dev',
+    altText: 'Aaron Nunez',
+    title: 'Aaron Nunez',
     designation: 'Web Designer',
     socialProfile: [
       {

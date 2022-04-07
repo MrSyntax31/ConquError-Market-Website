@@ -124,14 +124,14 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: 'Joshua Joseph Estrada',
-    title: 'Joshua Joseph Estrada',
-    designation: 'Junior Programmer',
+    altText: 'Saimon Harmer',
+    title: 'Saimon Harmer',
+    designation: 'CEO and Founder',
     socialProfile: [
       {
         id: 1,
         name: 'facebook',
-        path: 'https://www.facebook.com/Jayie.estrada1001',
+        path: '#',
         icon: <FaFacebookF />,
       },
       {
@@ -143,7 +143,7 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/jayieestrada/',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],
@@ -151,8 +151,8 @@ const data = [
   {
     id: 6,
     imgSrc: Member6,
-    altText: 'Technojet.Dev',
-    title: 'Technojet.Dev',
+    altText: 'Aaron Nunez',
+    title: 'Aaron Nunez',
     designation: 'Web Designer',
     socialProfile: [
       {
