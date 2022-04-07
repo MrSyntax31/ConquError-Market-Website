@@ -52,7 +52,7 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
 
-          <section sx={{ variant:  'section.KeyFeature'}} id="contacts">
+          <section sx={{ variant:  'section.KeyFeature'}} >
            <Container>
               <SectionHeader 
                 slogan="Contacts"
@@ -71,7 +71,7 @@ export default function Footer() {
               </Grid>
            </Container>
           </section>
-          <Text xs={styles.footer.copyright} style={{marginTop: "5%"}}>
+          <Text xs={styles.footer.copyright} >
             Copyright by {new Date().getFullYear()} | Technojet.Dev Team
           </Text>
         </Box>

@@ -5,7 +5,7 @@ import data from './footer.data';
 import FooterLogo from 'assets/logo.svg';
 import SectionHeader from '../../components/section-header';
 
-import FeatureCardColumn from '../../components/feature-card-column.js';
+import FeatureCardColumn from 'components/feature-card-column.js';
 import Performance from 'assets/key-feature/website.png';
 import Partnership from 'assets/key-feature/consulting.png';
 import Subscription from 'assets/key-feature/uiux.png';
@@ -51,27 +51,25 @@ export default function Footer() {
     <footer sx={styles.footer}>
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
-
-          <section sx={{ variant:  'section.KeyFeature'}} id="contacts">
-           <Container>
-              <SectionHeader 
-                slogan="Contacts"
-                title="If you have any questions, please do contact us."
+          <Link path="/">
+            <Image src={FooterLogo} alt="Footer Logo" />
+          </Link>
+            <SectionHeader 
+            slogan="Services"
+            title="Our passion and goal is to help you, make your business standout."
+          />
+          <Grid sx={styles.grid}>
+            {Mydata.map((item) => (
+              <FeatureCardColumn
+                key={item.id}
+                src={item.imgSrc}
+                alt={item.altText}
+                title={item.title}
+                text={item.text}
               />
-              <Grid sx={styles.grid}>
-                {Mydata.map((item) => (
-                  <FeatureCardColumn
-                    key={item.id}
-                    src={item.imgSrc}
-                    alt={item.altText}
-                    title={item.title}
-                    text={item.text}
-                  />
-                ))}
-              </Grid>
-           </Container>
-          </section>
-          <Text xs={styles.footer.copyright} style={{marginTop: "5%"}}>
+            ))}
+          </Grid>
+          <Text xs={styles.footer.copyright}>
             Copyright by {new Date().getFullYear()} | Technojet.Dev Team
           </Text>
         </Box>
@@ -144,25 +142,5 @@ const styles = {
       fontSize: [1, '15px'],
       width: '100%',
     },
-  },
-  grid: {
-    width: ['100%', '80%', '100%'],
-    mx: 'auto',
-    gridGap: [
-      '35px 0',
-      null,
-      '40px 40px',
-      '50px 60px',
-      '30px',
-      '50px 40px',
-      '55px 90px',
-    ],
-    gridTemplateColumns: [
-      'repeat(1,1fr)',
-      null,
-      'repeat(2,1fr)',
-      null,
-      'repeat(4,1fr)',
-    ],
   },
 };

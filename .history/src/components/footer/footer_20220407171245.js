@@ -52,7 +52,7 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
 
-          <section sx={{ variant:  'section.KeyFeature'}} id="contacts">
+          <section sx={{ variant:  'section.KeyFeature'}} id="">
            <Container>
               <SectionHeader 
                 slogan="Contacts"

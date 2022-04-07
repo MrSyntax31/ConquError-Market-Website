@@ -16,7 +16,6 @@ export default [
     label: 'Projects',
   },
   {
-    path: 'contacts',
-    label: 'Contacts',
+    
   }
 ];

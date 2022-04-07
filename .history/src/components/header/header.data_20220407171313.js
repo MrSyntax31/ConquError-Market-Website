@@ -17,6 +17,6 @@ export default [
   },
   {
     path: 'contacts',
-    label: 'Contacts',
+    label: 'About',
   }
 ];
