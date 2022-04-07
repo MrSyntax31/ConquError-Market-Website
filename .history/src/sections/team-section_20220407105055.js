@@ -16,9 +16,9 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Arllan Del Espiritu Santo',
-    title: 'Arllan Del Espiritu Santo',
-    designation: 'Founder/Project Manager',
+    altText: 'Saimon Harmer',
+    title: 'Arllan Del Espiritu sSnto',
+    designation: 'CEO and Founder',
     socialProfile: [
       {
         id: 1,
@@ -35,7 +35,7 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/_theofficialarman/',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],

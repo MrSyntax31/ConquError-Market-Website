@@ -35,7 +35,7 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/_theofficialarman/',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],

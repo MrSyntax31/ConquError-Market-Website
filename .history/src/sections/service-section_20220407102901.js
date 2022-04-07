@@ -13,7 +13,7 @@ import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
 
 const data = {
-  subTitle: 'Mission and Vision',
+  subTitle: 'our services',
   title: 'Business Goals Achieved with Design',
   features: [
     {
@@ -80,7 +80,7 @@ export default function ServiceSection() {
       <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
-        videoId="J_ksQqNX5UU"
+        videoId="iGBERMGMIvc"https://youtu.be/J_ksQqNX5UU
         onClose={() => setVideoOpen(false)}
       />
     </section>
