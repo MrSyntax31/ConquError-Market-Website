@@ -4,7 +4,7 @@ import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import FeatureCard from 'components/feature-card.js';
 import Performance from 'assets/feature/performance.svg';
-import Partnership from 'assets/feature/webproduction.png';
+import Partnership from 'assets/feature/partnership.svg';
 import Subscription from 'assets/feature/subscription.svg';
 import Support from 'assets/feature/support.svg';
 
@@ -13,7 +13,7 @@ const data = [
     id: 1,
     imgSrc: Performance,
     altText: 'Fast Performance',
-    title: 'Fast Performance',
+    title: 'Web Product',
     text:
       'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
   },

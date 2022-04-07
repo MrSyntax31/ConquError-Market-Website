@@ -77,7 +77,7 @@ const data = [
       {
         id: 1,
         name: 'facebook',
-        path: 'https://www.facebook.com/Pllmlnvr',
+        path: '#',
         icon: <FaFacebookF />,
       },
       {
@@ -89,7 +89,7 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/pllmlnvr/',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],

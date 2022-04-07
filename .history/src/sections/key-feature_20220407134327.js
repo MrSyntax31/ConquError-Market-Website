@@ -6,7 +6,7 @@ import FeatureCardColumn from 'components/feature-card-column.js';
 import Performance from 'assets/key-feature/website.png';
 import Partnership from 'assets/key-feature/consulting.png';
 import Subscription from 'assets/key-feature/uiux.png';
-import Support from 'assets/key-feature/digitalmarketing.png';
+import Support from 'assets/key-feature/digitalmarketing';
 import FeatureCard from 'components/feature-card';
 
 const data = [

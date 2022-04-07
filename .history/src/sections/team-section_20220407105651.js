@@ -43,41 +43,14 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Denmark Louie Irog',
-    title: 'Denmark Louie Irog',
-    designation: 'Lead Programmer/Associate Project Manager',
+    altText: 'Aaron Nunez',
+    title: 'Aaron Nunez',
+    designation: 'Founder',
     socialProfile: [
       {
         id: 1,
         name: 'facebook',
         path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'linkedin',
-        path: 'https://www.linkedin.com/in/irogdenmarklouie/',
-        icon: <FaLinkedinIn />,
-      },
-    ],
-  },
-  {
-    id: 3,
-    imgSrc: Member3,
-    altText: 'Paul Lemuel Niverio',
-    title: 'Paul Lemuel Niverio',
-    designation: 'Project Coordinator/Lead Researcher',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: 'https://www.facebook.com/Pllmlnvr',
         icon: <FaFacebookF />,
       },
       {
@@ -89,7 +62,34 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/pllmlnvr/',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
+  {
+    id: 3,
+    imgSrc: Member3,
+    altText: 'Aaron Nunez',
+    title: 'Aaron Nunez',
+    designation: 'Web Designer',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],

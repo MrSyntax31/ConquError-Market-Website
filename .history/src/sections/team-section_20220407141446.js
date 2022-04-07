@@ -72,12 +72,12 @@ const data = [
     imgSrc: Member3,
     altText: 'Paul Lemuel Niverio',
     title: 'Paul Lemuel Niverio',
-    designation: 'Project Coordinator/Lead Researcher',
+    designation: 'Web Designer',
     socialProfile: [
       {
         id: 1,
         name: 'facebook',
-        path: 'https://www.facebook.com/Pllmlnvr',
+        path: '#',
         icon: <FaFacebookF />,
       },
       {
@@ -89,7 +89,7 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/pllmlnvr/',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],

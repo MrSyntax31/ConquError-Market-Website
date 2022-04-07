@@ -5,8 +5,8 @@ import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
 import Performance from 'assets/key-feature/website.png';
 import Partnership from 'assets/key-feature/consulting.png';
-import Subscription from 'assets/key-feature/uiux.png';
-import Support from 'assets/key-feature/digitalmarketing.png';
+import Subscription from 'assets/key-feature/subscription.svg';
+import Support from 'assets/key-feature/support.svg';
 import FeatureCard from 'components/feature-card';
 
 const data = [
@@ -37,8 +37,8 @@ const data = [
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Digital Marketing',
-    title: 'Digital Marketing',
+    altText: 'Customer Support',
+    title: 'Customer Support',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },

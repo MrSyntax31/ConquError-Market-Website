@@ -61,7 +61,7 @@ const data = [
       },
       {
         id: 3,
-        name: 'linkedin',
+        name: 'instagram',
         path: 'https://www.linkedin.com/in/irogdenmarklouie/',
         icon: <FaLinkedinIn />,
       },
@@ -70,14 +70,14 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: 'Paul Lemuel Niverio',
-    title: 'Paul Lemuel Niverio',
-    designation: 'Project Coordinator/Lead Researcher',
+    altText: 'Aaron Nunez',
+    title: 'Aaron Nunez',
+    designation: 'Web Designer',
     socialProfile: [
       {
         id: 1,
         name: 'facebook',
-        path: 'https://www.facebook.com/Pllmlnvr',
+        path: '#',
         icon: <FaFacebookF />,
       },
       {
@@ -89,7 +89,7 @@ const data = [
       {
         id: 3,
         name: 'instagram',
-        path: 'https://www.instagram.com/pllmlnvr/',
+        path: '#',
         icon: <FaInstagram />,
       },
     ],

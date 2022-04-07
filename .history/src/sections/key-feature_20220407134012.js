@@ -5,8 +5,8 @@ import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
 import Performance from 'assets/key-feature/website.png';
 import Partnership from 'assets/key-feature/consulting.png';
-import Subscription from 'assets/key-feature/uiux.png';
-import Support from 'assets/key-feature/digitalmarketing.png';
+import Subscription from 'assets/key-feature/ui';
+import Support from 'assets/key-feature/support.svg';
 import FeatureCard from 'components/feature-card';
 
 const data = [
