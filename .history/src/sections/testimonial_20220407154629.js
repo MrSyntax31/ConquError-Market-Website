@@ -101,7 +101,7 @@ const carouselParams = {
 
 export default function TestimonialCard() {
   return (
-   <section id="projects" sx={{variant: 'section.testimonial'}}>
+   <section id="testimonial" sx={{variant: 'section.testimonial'}}>
      <Container css={{ textAlign: 'center'}}>
       <SectionHeader
           slogan="Projects"

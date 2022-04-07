@@ -101,11 +101,11 @@ const carouselParams = {
 
 export default function TestimonialCard() {
   return (
-   <section id="projects" sx={{variant: 'section.testimonial'}}>
+   <section id="testimonial" sx={{variant: 'section.testimonial'}}>
      <Container css={{ textAlign: 'center'}}>
       <SectionHeader
-          slogan="Projects"
-          title="Here are some of our selected works we have done lately. Feel free to check them out."
+          slogan="P"
+          title="Meet client satisfaction"
       />
      </Container>
      <Box sx={styles.carouselWrapper}>

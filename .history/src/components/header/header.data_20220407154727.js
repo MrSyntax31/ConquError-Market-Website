@@ -9,10 +9,10 @@ export default [
   },
   {
     path: 'pricing',
-    label: 'Technologies',
+    label: 'Pricing',
   },
   {
     path: 'projects',
-    label: 'Projects',
+    label: 'Testimonial',
   },
 ];
