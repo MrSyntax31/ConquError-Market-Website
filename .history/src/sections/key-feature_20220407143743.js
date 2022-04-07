@@ -40,7 +40,7 @@ const data = [
     altText: 'Digital Marketing',
     title: 'Digital Marketing',
     text:
-      'We ensures that your business is always structured in the best way to get the best results.',
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
 ];
 

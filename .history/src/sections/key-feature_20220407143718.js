@@ -32,7 +32,7 @@ const data = [
     altText: 'UI/UX Design',
     title: 'UI/UX Design',
     text:
-      'We have the best UI/UX designer that you need to create a wonderful and functional web app.',
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const data = [
     altText: 'Digital Marketing',
     title: 'Digital Marketing',
     text:
-      'We ensures that your business is always structured in the best way to get the best results.',
+      'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
 ];
 

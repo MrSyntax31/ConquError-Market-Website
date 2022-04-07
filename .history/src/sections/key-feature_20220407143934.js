@@ -40,7 +40,7 @@ const data = [
     altText: 'Digital Marketing',
     title: 'Digital Marketing',
     text:
-      'We ensures that your business is always structured in the best way to get the best results.',
+      'We ensures that your business is always structured',
   },
 ];
 
