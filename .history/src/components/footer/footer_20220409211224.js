@@ -41,6 +41,7 @@ export default function Footer() {
                     />
               ))}
             </nav>
+            <LinkItem href="mailto:arllan.delespiritusanto03@gmail.com">arllan.delespiritusanto03@gmail.com</LinkItem>
           <Text xs={styles.footer.copyright}>
             Copyright by {new Date().getFullYear()} | Technojet.Dev Team
           </Text>
@@ -54,7 +55,31 @@ export default function Footer() {
     
   );
 }
-
+const LinkItem = style.a`
+	font-size: 18px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.75);
+	margin-bottom: 16px;
+	transition: .3s ease;
+	position: relative;
+	left: 0;
+	&:hover {
+		color: #fff;
+		left: 6px;
+	}
+	@media ${props => props.theme.breakpoints.md} {
+		font-size: 16px;
+		line-height: 28px;
+		display: flex;
+	}
+	@media ${props => props.theme.breakpoints.sm} {
+		font-size: 8px;
+		line-height: 14px;
+		margin-bottom: 8px;
+		display: flex;
+		align-items: center;
+	}
+`
 
 const styles = {
   footer: {
@@ -117,5 +142,31 @@ const styles = {
       null,
       'repeat(4,1fr)',
     ],
+  },
+  LinkItem:{
+
+    fontSize: '18px',
+    lineHeight: '30px',
+    color: 'rgba(255, 255, 255, 0.75)',
+    marginBottom: 16px;
+    transition: .3s ease;
+    position: relative;
+    left: 0;
+    &:hover {
+      color: #fff;
+      left: 6px;
+    }
+    @media ${props => props.theme.breakpoints.md} {
+      font-size: 16px;
+      line-height: 28px;
+      display: flex;
+    }
+    @media ${props => props.theme.breakpoints.sm} {
+      font-size: 8px;
+      line-height: 14px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+    },
   },
 };

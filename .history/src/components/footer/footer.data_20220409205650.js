@@ -5,20 +5,20 @@ export default {
       label: 'Facebook',
     },
     {
-      path: 'https://www.youtube.com/channel/UCojmF97JXog4ITgDjNtfnqw',
+      path: '/',
       label: 'Youtube',
     },
     {
-      path: 'tel:0956-528-0371',
+      path: '/',
       label: 'Phone',
-    },
-    {
-      path: 'mailto:technojet.devofficial@gmail.com',
-      label: 'Email',
     },
     {
       path: '/',
       label: 'Location',
+    },
+    {
+      path: '/',
+      label: '',
     },
   ],
 };

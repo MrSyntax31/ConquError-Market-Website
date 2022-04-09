@@ -5,7 +5,7 @@ export default {
       label: 'Facebook',
     },
     {
-      path: 'https://www.youtube.com/channel/UCojmF97JXog4ITgDjNtfnqw',
+      path: '/',
       label: 'Youtube',
     },
     {
@@ -13,7 +13,7 @@ export default {
       label: 'Phone',
     },
     {
-      path: 'mailto:technojet.devofficial@gmail.com',
+      path: 'mailto:arllan.delespiritusanto03@gmail.com',
       label: 'Email',
     },
     {

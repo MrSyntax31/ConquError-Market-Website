@@ -5,15 +5,15 @@ export default {
       label: 'Facebook',
     },
     {
-      path: 'https://www.youtube.com/channel/UCojmF97JXog4ITgDjNtfnqw',
+      path: '/',
       label: 'Youtube',
     },
     {
-      path: 'tel:0956-528-0371',
+      path: 'tel:',
       label: 'Phone',
     },
     {
-      path: 'mailto:technojet.devofficial@gmail.com',
+      path: 'mailto:arllan.delespiritusanto03@gmail.com',
       label: 'Email',
     },
     {

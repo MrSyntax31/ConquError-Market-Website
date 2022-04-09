@@ -10,10 +10,42 @@ import Performance from 'assets/key-feature/facebook.png';
 import Partnership from 'assets/key-feature/instagram.png';
 import Subscription from 'assets/key-feature/phone.png';
 import Support from 'assets/key-feature/location.png';
-import styled from "styled-components"
 
-
-
+const Mydata = [
+  {
+    id: 1,
+    imgSrc: Performance,
+    altText: 'Facebook',
+    title: 'Facebook',
+    text:
+      'We offer web designing, you can give us your custom template and we will create this to reality.',
+  },
+  {
+    id: 2,
+    imgSrc: Partnership,
+    altText: 'Instagram',
+    title: 'Instagram',
+    text:
+      'With our great members that skilled in customer services and product sales we can help you grow your business.',
+    path:''
+  },
+  {
+    id: 3,
+    imgSrc: Subscription,
+    altText: 'Contact Number',
+    title: 'Contact Number',
+    text:
+      'We have the best UI/UX designer that you need to create a wonderful and functional web app.',
+  },
+  {
+    id: 4,
+    imgSrc: Support,
+    altText: 'Address',
+    title: 'Address',
+    text:
+      'We ensures that your business is always structured in the best way to get the best results.',
+  },
+];
 
 export default function Footer() {
   return (
@@ -27,7 +59,27 @@ export default function Footer() {
                 slogan="Contacts"
                 title="If you have any questions, please do contact us."
               />
-              
+              <Grid sx={styles.grid}>
+                {Mydata.map((item) => (
+                  <FeatureCardColumn
+                    key={item.id}
+                    src={item.imgSrc}
+                    alt={item.altText}
+                    title={item.title}
+                    text={item.text}
+                  />
+                ))}
+              </Grid>
+           </Container>
+          </section>
+          <Text xs={styles.footer.copyright} style={{marginTop: "5%"}}>
+            Copyright by {new Date().getFullYear()} | Technojet.Dev Team
+          </Text>
+        </Box>
+      </Container>
+
+      <Container>
+        <Box sx={styles.footer.footerBottomArea}>
           <Link path="/">
             <Image src={FooterLogo} alt="Footer Logo" />
           </Link>
@@ -41,20 +93,16 @@ export default function Footer() {
                     />
               ))}
             </nav>
+          </Box>
           <Text xs={styles.footer.copyright}>
             Copyright by {new Date().getFullYear()} | Technojet.Dev Team
           </Text>
         </Box>
-           </Container>
-          </section>
-        </Box>
       </Container>
-
     </footer>
     
   );
 }
-
 
 const styles = {
   footer: {

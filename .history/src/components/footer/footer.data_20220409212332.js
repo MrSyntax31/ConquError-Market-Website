@@ -5,7 +5,7 @@ export default {
       label: 'Facebook',
     },
     {
-      path: 'https://www.youtube.com/channel/UCojmF97JXog4ITgDjNtfnqw',
+      path: '/',
       label: 'Youtube',
     },
     {

@@ -10,9 +10,8 @@ import Performance from 'assets/key-feature/facebook.png';
 import Partnership from 'assets/key-feature/instagram.png';
 import Subscription from 'assets/key-feature/phone.png';
 import Support from 'assets/key-feature/location.png';
-import styled from "styled-components"
 
-
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 
 export default function Footer() {
@@ -20,14 +19,35 @@ export default function Footer() {
     <footer sx={styles.footer}>
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
-
-          <section sx={{ variant:  'section.KeyFeature'}} id="contacts">
-           <Container>
               <SectionHeader 
                 slogan="Contacts"
                 title="If you have any questions, please do contact us."
               />
-              
+
+          <section sx={{ variant:  'section.KeyFeature'}} id="contacts">
+           <Container>
+              <Grid sx={styles.grid}>
+                {Mydata.map((item) => (
+                  <FeatureCardColumn
+                    key={item.id}
+                    src={item.imgSrc}
+                    alt={item.altText}
+                    title={item.title}
+                    text={item.text}
+                    socialProfile={item.socialProfile}
+                  />
+                ))}
+              </Grid>
+           </Container>
+          </section>
+          <Text xs={styles.footer.copyright} style={{marginTop: "5%"}}>
+            Copyright by {new Date().getFullYear()} | Technojet.Dev Team
+          </Text>
+        </Box>
+      </Container>
+
+      <Container>
+        <Box sx={styles.footer.footerBottomArea}>
           <Link path="/">
             <Image src={FooterLogo} alt="Footer Logo" />
           </Link>
@@ -41,20 +61,16 @@ export default function Footer() {
                     />
               ))}
             </nav>
+          </Box>
           <Text xs={styles.footer.copyright}>
             Copyright by {new Date().getFullYear()} | Technojet.Dev Team
           </Text>
         </Box>
-           </Container>
-          </section>
-        </Box>
       </Container>
-
     </footer>
     
   );
 }
-
 
 const styles = {
   footer: {

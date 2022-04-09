@@ -10,9 +10,8 @@ import Performance from 'assets/key-feature/facebook.png';
 import Partnership from 'assets/key-feature/instagram.png';
 import Subscription from 'assets/key-feature/phone.png';
 import Support from 'assets/key-feature/location.png';
-import styled from "styled-components"
 
-
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 
 export default function Footer() {
@@ -28,6 +27,16 @@ export default function Footer() {
                 title="If you have any questions, please do contact us."
               />
               
+           </Container>
+          </section>
+          <Text xs={styles.footer.copyright} style={{marginTop: "5%"}}>
+            Copyright by {new Date().getFullYear()} | Technojet.Dev Team
+          </Text>
+        </Box>
+      </Container>
+
+      <Container>
+        <Box sx={styles.footer.footerBottomArea}>
           <Link path="/">
             <Image src={FooterLogo} alt="Footer Logo" />
           </Link>
@@ -41,20 +50,16 @@ export default function Footer() {
                     />
               ))}
             </nav>
+          </Box>
           <Text xs={styles.footer.copyright}>
             Copyright by {new Date().getFullYear()} | Technojet.Dev Team
           </Text>
         </Box>
-           </Container>
-          </section>
-        </Box>
       </Container>
-
     </footer>
     
   );
 }
-
 
 const styles = {
   footer: {

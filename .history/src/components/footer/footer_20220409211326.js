@@ -41,6 +41,7 @@ export default function Footer() {
                     />
               ))}
             </nav>
+            <LinkItem href="mailto:arllan.delespiritusanto03@gmail.com">arllan.delespiritusanto03@gmail.com</LinkItem>
           <Text xs={styles.footer.copyright}>
             Copyright by {new Date().getFullYear()} | Technojet.Dev Team
           </Text>
@@ -117,5 +118,15 @@ const styles = {
       null,
       'repeat(4,1fr)',
     ],
+  },
+  LinkItem:{
+
+    fontSize: '18px',
+    lineHeight: '30px',
+    color: 'rgba(255, 255, 255, 0.75)',
+    marginBottom: '16px',
+    transition: '.3s ease',
+    position: 'relative',
+    left: '0',
   },
 };
