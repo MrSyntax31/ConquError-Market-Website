@@ -6,10 +6,10 @@ import FooterLogo from 'assets/logo.svg';
 import SectionHeader from '../../components/section-header';
 
 import FeatureCardColumn from '../../components/feature-card-column.js';
-import Performance from 'assets/key-feature/facebook.png';
-import Partnership from 'assets/key-feature/instagram.png';
-import Subscription from 'assets/key-feature/phone.png';
-import Support from 'assets/key-feature/location.png';
+import Performance from 'assets/key-feature/website.png';
+import Partnership from 'assets/key-feature/consulting.png';
+import Subscription from 'assets/key-feature/uiux.png';
+import Support from 'assets/key-feature/digitalmarketing.png';
 
 const Mydata = [
   {
@@ -31,16 +31,16 @@ const Mydata = [
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Contact Number',
-    title: 'Contact Number',
+    altText: 'UI/UX Design',
+    title: 'UI/UX Design',
     text:
       'We have the best UI/UX designer that you need to create a wonderful and functional web app.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Address',
-    title: 'Address',
+    altText: 'Digital Marketing',
+    title: 'Digital Marketing',
     text:
       'We ensures that your business is always structured in the best way to get the best results.',
   },

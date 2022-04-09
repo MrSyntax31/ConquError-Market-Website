@@ -7,7 +7,7 @@ import SectionHeader from '../../components/section-header';
 
 import FeatureCardColumn from '../../components/feature-card-column.js';
 import Performance from 'assets/key-feature/facebook.png';
-import Partnership from 'assets/key-feature/instagram.png';
+import Partnership from 'assets/key-feature/iinstagram.png';
 import Subscription from 'assets/key-feature/phone.png';
 import Support from 'assets/key-feature/location.png';
 

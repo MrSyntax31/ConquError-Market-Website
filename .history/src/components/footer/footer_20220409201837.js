@@ -6,10 +6,10 @@ import FooterLogo from 'assets/logo.svg';
 import SectionHeader from '../../components/section-header';
 
 import FeatureCardColumn from '../../components/feature-card-column.js';
-import Performance from 'assets/key-feature/facebook.png';
-import Partnership from 'assets/key-feature/instagram.png';
-import Subscription from 'assets/key-feature/phone.png';
-import Support from 'assets/key-feature/location.png';
+import Performance from 'assets/key-feature/website.png';
+import Partnership from 'assets/key-feature/consulting.png';
+import Subscription from 'assets/key-feature/uiux.png';
+import Support from 'assets/key-feature/digitalmarketing.png';
 
 const Mydata = [
   {
@@ -19,6 +19,25 @@ const Mydata = [
     title: 'Facebook',
     text:
       'We offer web designing, you can give us your custom template and we will create this to reality.',
+      socialProfile: [
+        {
+          id: 1,
+          name: 'facebook',
+          path: '#',
+          icon: <FaFacebookF />,
+        },
+        {
+          id: 2,
+          name: 'twitter',
+          path: '#',
+          icon: <FaTwitter />,
+        },
+        {
+          id: 3,
+          name: 'instagram',
+          path: '#',
+          icon: <FaInstagram />,
+        },
   },
   {
     id: 2,

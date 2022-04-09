@@ -7,9 +7,9 @@ import SectionHeader from '../../components/section-header';
 
 import FeatureCardColumn from '../../components/feature-card-column.js';
 import Performance from 'assets/key-feature/facebook.png';
-import Partnership from 'assets/key-feature/instagram.png';
-import Subscription from 'assets/key-feature/phone.png';
-import Support from 'assets/key-feature/location.png';
+import Partnership from 'assets/key-feature/consulting.png';
+import Subscription from 'assets/key-feature/uiux.png';
+import Support from 'assets/key-feature/digitalmarketing.png';
 
 const Mydata = [
   {
