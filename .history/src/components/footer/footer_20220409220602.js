@@ -5,6 +5,9 @@ import data from './footer.data';
 import FooterLogo from 'assets/logo.svg';
 import SectionHeader from '../../components/section-header';
 
+
+
+
 export default function Footer() {
   return (
     <footer sx={styles.footer}>
